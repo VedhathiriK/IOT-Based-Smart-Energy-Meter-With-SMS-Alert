@@ -3,6 +3,8 @@
 An IoT-based real-time energy monitoring system using ESP32, PZEM-004T energy meter, MQTT dashboard, LCD display, and SMS alerts via Circuit Digest Cloud API.
 This project enables remote monitoring of electrical parameters and instant fault notifications with low latency and minimal hardware complexity.
 
+
+
 📌 Features
 📊 Real-time monitoring of:
 
@@ -32,6 +34,8 @@ Power Factor
 
 
 
+
+
 🧠 Why PZEM-004T?
 
 The PZEM-004T (V4.0) is a reliable AC energy measurement module that eliminates complex calibration required by sensors like ACS712 or ZMPT101B.
@@ -44,6 +48,8 @@ Active Power	0 – 23kW
 Power Factor	0.00 – 1.00
 Frequency	45 – 65Hz
 Energy	0 – 250000 kWh
+
+
 
 
 
@@ -69,6 +75,8 @@ SMS alert is sent using Circuit Digest Cloud API
 
 
 
+
+
 🧩 Components Required
 No	Component	Quantity
 1	ESP32	1
@@ -88,6 +96,8 @@ AC Load → PZEM-004T → ESP32 →
 
         
 
+
+
 🔌 Circuit Overview
 
 ESP32 UART:
@@ -103,6 +113,8 @@ CT clamped only on the live wire
 PZEM handles high-voltage isolation internally
 
 ⚠️ Do NOT connect neutral and live both through CT
+
+
 
 
 
@@ -173,6 +185,8 @@ Internet (Wi-Fi) required
 
 
 
+
+
 🏠 Applications
 
 Smart home energy monitoring
@@ -189,6 +203,8 @@ Predictive maintenance systems
 
 
 
+
+
 ✅ Advantages
 
 Factory-calibrated measurements
@@ -200,6 +216,8 @@ Secure cloud-based alerts
 Scalable for future automation
 
 Beginner-friendly hardware setup
+
+
 
 
 🔐 Safety Notes
@@ -226,6 +244,8 @@ Data logging & analytics
 
 
 
+
+
 ❓ FAQs
 
 Q1. Why MQTT instead of HTTP?
@@ -239,6 +259,7 @@ Yes, PZEM-004T isolates high voltage from ESP32.
 
 Q4. Can this detect power failure?
 Yes, voltage drop and zero-current conditions.
+
 
 
 
