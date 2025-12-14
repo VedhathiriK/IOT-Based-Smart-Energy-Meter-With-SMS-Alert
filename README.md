@@ -246,3 +246,7 @@ Yes, voltage drop and zero-current conditions.
 🧾 Conclusion
 
 This project demonstrates a practical, scalable, and reliable IoT-based energy monitoring system using ESP32 and PZEM-004T. With real-time monitoring, MQTT streaming, and instant SMS alerts, it provides both convenience and safety, making it ideal for modern smart energy applications.
+
+
+Author:
+Vedhathiri K
