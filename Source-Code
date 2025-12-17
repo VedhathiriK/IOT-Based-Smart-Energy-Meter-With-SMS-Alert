@@ -114,7 +114,7 @@ void sendSMS() {
  String payload =
   "{\"mobiles\":\"" + String(mobileNumber) +
   "\",\"var1\":\"Energy meter\"" +
-  ",\"var2\":\"Voltage Present But Current is 0\"}";
+  ",\"var2\":\"High Voltage\"}";
 
   Serial.println(payload);
 
@@ -166,12 +166,12 @@ void loop() {
 
 
   // =====================================================
-  //         ZERO CURRENT ALERT (FIXED)
+  //         High Voltage(FIXED)
   // =====================================================
   // === ZERO CURRENT ALERT ===
-if (V > 50 && I <= 0.001) {   // Current essentially zero
+if (V > 255) {   
     if (millis() - lastSMS > smsCooldown) {
-        Serial.println("⚠️ ALERT! Voltage Present but Current = 0A");
+        Serial.println("⚠️ High Voltage Detected");
         sendSMS();
         lastSMS = millis();  // update timestamp
     }
