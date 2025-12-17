@@ -371,13 +371,13 @@
         // ====================================================
         let client = null;
         const TOPICS = {
-            voltage: "yourname/energy/voltage",
-            current: "yourname/energy/current",
-            power: "yourname/energy/power",
-            energy: "yourname/energy/energy",
-            frequency: "yourname/energy/frequency",
-            pf: "yourname/energy/pf",
-            json: "yourname/energy/data"
+            voltage: "unique/energy/voltage",
+            current: "unique/energy/current",
+            power: "unique/energy/power",
+            energy: "unique/energy/energy",
+            frequency: "unique/energy/frequency",
+            pf: "unique/energy/pf",
+            json: "unique/energy/data"
         };
 
         // UI Elements
