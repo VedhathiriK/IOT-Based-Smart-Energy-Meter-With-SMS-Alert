@@ -42,13 +42,13 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // MQTT topics
-const char* tV  = "vedha/energy/voltage";
-const char* tI  = "vedha/energy/current";
-const char* tP  = "vedha/energy/power";
-const char* tE  = "vedha/energy/energy";
-const char* tF  = "vedha/energy/frequency";
-const char* tPF = "vedha/energy/pf";
-const char* tJSON = "vedha/energy/data";
+const char* tV  = "unique/energy/voltage";
+const char* tI  = "unique/energy/current";
+const char* tP  = "unique/energy/power";
+const char* tE  = "unique/energy/energy";
+const char* tF  = "unique/energy/frequency";
+const char* tPF = "unique/energy/pf";
+const char* tJSON = "unique/energy/data";
 
 // --------------------------------------
 // WiFi connect
