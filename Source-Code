@@ -33,7 +33,7 @@ const unsigned long smsCooldown = 60000; // 1 minute in milliseconds
 const char* mqtt_server = "broker.hivemq.com"; 
 const int   mqtt_port   = 1883;
 
-const char* apiKey = "xthTmyPm9ynQ";    
+const char* apiKey = "yourapikey";    
 const char* deviceID = "ESP-32_Tracker";
 const char* templateID = "101";
 const char* mobileNumber = "Yourphonenumber";
