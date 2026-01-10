@@ -165,6 +165,9 @@ Yes, voltage drop and zero-current conditions.
 
 
 
+Project link
+
+https://circuitdigest.com/microcontroller-projects/iot-based-smart-energy-meter-with-sms-alert
 
 
 🧾 Conclusion
