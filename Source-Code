@@ -105,7 +105,7 @@ void sendSMS() {
 
   HTTPClient http;
 
-  String apiUrl = "https://www.circuitdigest.cloud/send_sms?ID=" + String(templateID);
+  String apiUrl = "https://www.circuitdigest.cloud/api/v1/send_sms?ID=" + String(templateID);
   http.begin(secureClient, apiUrl);
 
   http.addHeader("Authorization", apiKey);
